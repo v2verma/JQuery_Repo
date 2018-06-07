@@ -13,6 +13,7 @@ class App extends Component {
   componentDidMount(){
     $('#Display_btn').click(function(){
       var data = $('#Display_text_jq').val();
+      //var data = $('#Display_text_jq').val().length();   //for getting the length of text in input filed
       $('#text_jq').text(data);
     })
   }
