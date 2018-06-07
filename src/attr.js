@@ -1,3 +1,5 @@
+//The code is to get attributes of any DOM element and display the same using jQuery.
+
 import React,{Component} from 'react';
 import { render } from 'react-dom';
 import $ from 'jquery';
