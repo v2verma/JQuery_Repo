@@ -18,7 +18,7 @@ class App extends Component {
   render(){
     return(
       <div >
-        <h2>jQuery Examples : html</h2>
+        <h2>jQuery Examples : attr</h2>
         <div>
           <p>
             <a id="link" href="www.google.com" target="_blank">Google Link</a>
