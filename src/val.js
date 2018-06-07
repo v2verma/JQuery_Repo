@@ -31,7 +31,7 @@ class App extends Component {
   render(){
     return(
       <div >
-        <h2>jQuery Examples : html</h2>
+        <h2>jQuery Examples : val</h2>
         <div>
           <input id="Display_text_js" type="text" value={this.state.textvalue} onChange={(event) => this.handleInputChange(event.target.value)} />
           <input id="Display_btn_js" type="button" value="Display@javaScript" onClick={this.display}/>
